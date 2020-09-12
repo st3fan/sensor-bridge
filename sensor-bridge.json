@@ -1,0 +1,14 @@
+{
+    "address": "192.168.0.32",
+    "receiver": {
+        "port": 3232
+    },
+    "bridge": {
+        "name": "My Sensor",
+        "pin": "00102003",
+        "sensors": [
+            { "serial": "f008d1d4092c", "name": "Sensor092c", "model": "ESP32/DHT22" },
+            { "serial": "f008d1d4f64c", "name": "Sensorf64c", "model": "ESP32/DHT22" }
+        ]
+    }
+}
